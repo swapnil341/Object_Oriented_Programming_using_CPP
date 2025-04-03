@@ -2,7 +2,6 @@
 using namespace std;
 
 template <typename T>
-
 T add( T a , T b){
     T c = a + b ;
     return c ;
@@ -11,7 +10,6 @@ T add( T a , T b){
 int main(){
     int intAns ;
     float floatAns ;
-    
     intAns = add(10, 20);
     floatAns = add(10.4f, 20.5f);
     cout<<"Addition of 10 and 20 : "<<intAns<<endl;
